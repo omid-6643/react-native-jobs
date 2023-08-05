@@ -6,7 +6,7 @@ import { COLORS, icons, images, SIZES } from "../constants";
 
 import {
   Nearbyjobs,
-  Popularjobs,
+  PopularJobs,
   ScreenHeaderBtn,
   Welcome,
 } from "../components";
@@ -36,7 +36,7 @@ const Home = () => {
           }}
         >
           <Welcome />
-          <Popularjobs />
+          <PopularJobs />
           <Nearbyjobs />
         </View>
       </ScrollView>
